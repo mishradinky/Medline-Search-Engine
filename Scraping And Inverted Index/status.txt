@@ -1,0 +1,10 @@
+webScraper.js -> scraps all html data from medline encyclopedia and uploads data to mongodb
+
+cleanData.js -> retrieves all data from mongodb and cleans it and adds it to articleDetails.json
+
+uploadToDb.js -> uploads cleaned data to mysql
+
+buildInvertedIndex.js -> creats inverted index in mysql
+
+
+
